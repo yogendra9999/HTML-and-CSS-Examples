@@ -1,0 +1,94 @@
+*{ /*This applies to every HTML element.
+It:
+Removes default margins
+Removes default padding
+Sets Arial font*/
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+/*CSS for Header*/
+header{
+    height: 60px;
+    background-color: powderblue;
+    text-align: center;
+}
+/*Then,moves the title slightly downward.*/
+.NavBar{
+    padding-top: 18px;
+}
+
+#navbar-title{
+    color: black;
+    font-size: 25px;  /*makes the title bigger.*/
+}
+
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{ /*Table occupies full width..Everything is centered.*/
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{ /*Every image becomes 64 pixels tall.*/
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+
+.Shopping-container{ /*makes..Grey background..Center alignment..*/
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90%;
+    height: 60%;
+}
+
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.Sales-table-head{ /*The heading row becomes purple.*/
+    background-color: #806BDC;
+}
+
+/* Solution as follows */
+.Information{
+    width: 92%;
+    margin: 20px;
+    font-size: 11px;
+    color: #878787;
+    list-style-position: inside;
+}
+
+footer{
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
