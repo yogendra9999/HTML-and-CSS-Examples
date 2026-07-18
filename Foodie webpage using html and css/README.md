@@ -1,0 +1,33 @@
+# Foodie Webpage Using HTML and CSS
+
+## Description
+This project is a simple Food Delivery webpage created using HTML and CSS. It displays popular restaurants, food rankings, famous food items, and restaurant details with a clean and attractive layout.
+
+## Features
+- Food delivery homepage
+- Restaurant cards with images
+- World famous food ranking
+- Food culture section
+- Food details table
+- Simple and responsive design
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Project Structure
+```
+foodie.html
+style.css
+README.md
+```
+
+## How to Run
+1. Download or clone the project.
+2. Open `foodie.html` in your web browser.
+
+## Output
+- Displays a food delivery homepage with restaurant information, food rankings, and famous food details.
+
+## Author
+Cherukuri Yogendra Sai
